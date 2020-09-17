@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,300;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #44a08d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #093637,
+    #44a08d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #093637,
+    #44a08d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  color: #093637;
+}
+
+.quiz-container {
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+  width: 420px;
+  overflow: hidden;
+}
+
+.question-container {
+  padding: 2rem 4rem;
+}
+
+#question {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #44a08d;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #3a8b7b;
+  transition: 0.2s;
+}
+
+.question-container li {
+  padding: 5px 0;
+}
+
+.question-container label {
+  font-weight: 300;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.summary {
+  text-align: center;
+  font-size: 1rem;
+}
